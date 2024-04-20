@@ -1,0 +1,251 @@
+    body {
+        margin: 0px;
+    }
+    
+    .cv-document {
+        box-sizing: border-box;
+        border: none;
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        vertical-align: baseline;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: arial, sans-serif, tahoma;
+        font-size: 10pt;
+    }
+    
+    .cv-page {
+        outline: 0;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        text-decoration: none;
+        width: 900px;
+        min-height: 900px;
+        margin: 0 auto;
+        box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+        background-color: #fff;
+        position: relative;
+        padding: 40px
+    }
+    
+    h2 {
+        text-transform: uppercase;
+    }
+    /* Chia bố cục từng phần cho tiêu đề thiết kế */
+    
+    .section {
+        margin-bottom: 40px;
+        margin-left: 40px;
+        margin-right: -20px;
+        height: auto;
+    }
+    /* ************************************************ */
+    /* các mục tiêu đề được in hoa và có dấu gạch dưới */
+    
+    .section-title {
+        text-transform: uppercase;
+        font-style: normal;
+        border-bottom: 2px solid black;
+    }
+    
+    h1.section-title {
+        color: #0e2452;
+        border-bottom: none;
+        margin: 0;
+    }
+    /* *********************************************** */
+    /* Phần giới thiệu thông tin cá nhân */
+    
+    .profile {
+        width: 760px;
+    }
+    
+    .profile ul {
+        display: inline-block;
+        list-style: none;
+        padding: 0%;
+        width: 100px;
+        height: 30px;
+        font-size: 18px;
+    }
+    
+    .profile ul,
+    li {
+        padding: 10px 10px 10px 0;
+        width: 140px;
+    }
+    
+    .imgBX {
+        position: absolute;
+        top: 40px;
+        left: 850px;
+        height: 216px;
+    }
+    
+    img {
+        height: 113px;
+        width: 113px;
+    }
+    /* *********************************************** */
+    /* Phần giới thiệu mục tiêu nghề nghiệp */
+    
+    .section-content p {
+        font-size: 18px;
+        margin-top: 40px;
+    }
+    /* ************************************************ */
+    /* Phần học vấn */
+    
+    .container {
+        height: 80px;
+        width: 840px;
+        border-bottom: 2px solid rgb(246, 246, 246);
+    }
+    
+    .div-1 {
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        height: auto;
+        float: left;
+    }
+    
+    .div-2 {
+        margin: 0;
+        padding: 0;
+        width: 580px;
+        height: auto;
+        padding-left: 250px;
+    }
+    
+    .div-1 p {
+        margin: 0;
+    }
+    
+    .div-2 p {
+        margin: 0;
+        padding: 2px;
+    }
+    /* Nâng cao học vấn & kinh nghiệm làm việc */
+    
+    div#edu.section-content ol {
+        list-style-type: none;
+        padding-left: 5px;
+        top: 10px;
+    }
+    
+    div#edu.section-content li {
+        position: relative;
+        margin: 0;
+        padding-bottom: 1em;
+        padding-left: 20px;
+    }
+    
+    div#edu.section-content li::before {
+        content: '';
+        background-color: rgb(201, 201, 201);
+        position: absolute;
+        bottom: 0px;
+        top: 0px;
+        left: 6px;
+        width: 3px;
+    }
+    
+    div#edu.section-content ol li::after {
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 2px;
+        background-color: black;
+        top: 16px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    /* ******************************** */
+    /* Kinh nghiệm làm việc */
+    
+    .exp-1 {
+        padding-bottom: 5px;
+        height: 160px;
+        width: 850px;
+        border-bottom: 2px solid rgb(246, 246, 246);
+    }
+    
+    .exp-2 {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        height: 90px;
+        width: 850px;
+        border-bottom: 2px solid rgb(246, 246, 246);
+    }
+    /* ***************************************** */
+    /* Hoạt động */
+    
+    .act-1 {
+        height: 80px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-bottom: 2px solid rgb(246, 246, 246);
+    }
+    
+    .act-2 {
+        height: 60px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        border-bottom: 2px solid rgb(246, 246, 246);
+    }
+    /* *********************************8 */
+    /* Kĩ năng &  Chứng chỉ */
+    
+    .ski-1 {
+        padding-bottom: 5px;
+        padding-top: 5px;
+        height: 30px;
+        border-bottom: 2px solid rgb(246, 246, 246);
+    }
+    /* ************************************** */
+    /*Sở thích*/
+    
+    .hob {
+        font-size: 18px;
+        height: 60px;
+    }
+    
+    div#div-1 ul {
+        padding-left: 20px;
+    }
+    /* ***************************************** */
+    /* Dự án */
+    
+    div.proj p {
+        /* padding: 0; */
+        margin: 0;
+    }
+    
+    div.proj ul {
+        padding-left: 20px;
+    }
+    
+    div.proj li {
+        padding: 5px;
+        font-size: 18px;
+        width: 800px;
+    }
+    /* **************************** */
+    /* Liên hệ */
+    
+    div.contact-1 ol {
+        padding-left: 20px;
+    }
+    
+    div.contact-1 ol li a {
+        color: blue;
+        font-weight: bold;
+        text-decoration: none;
+    }

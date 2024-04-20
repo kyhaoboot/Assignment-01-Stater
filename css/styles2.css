@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+
+.cv-document {
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: arial, sans-serif, tahoma;
+    font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    background-color: #fff;
+    position: relative;
+    padding: 40px
+}
+
+
+/* In hoa các tiêu đề */
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+
+/* xây đựng thông tin cá nhân */
+
+.section {
+    padding-top: 40px;
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+h1.section-title {
+    color: #0e2452;
+    border-bottom: none;
+}
+
+.profile ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.profile ul li {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.imgBX img {
+    width: 113px;
+    height: 113px;
+}
+
+.imgBX {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+}
+
+
+/*  học vấn */
+
+.container,
+.exp-1,
+.exp-2,
+.act-1,
+.act-2,
+.ski-1 {
+    border-bottom: 1px solid silver;
+    padding-top: 10px;
+    margin-left: -40px;
+    padding-bottom: 10px;
+}
+
+.section-content ul {
+    list-style-type: none;
+}
+
+.div-1 {
+    position: absolute;
+}
+
+.div-2 {
+    padding-left: 250px;
+}
+
+li.container::before {
+    content: '';
+    /* position: absolute; */
+    background-color: black;
+    bottom: 0px;
+    top: 0px;
+    left: 6px;
+    width: 6px;
+}
+
+#edu ul li::after {
+    content: '';
+    /* position: absolute; */
+    width: 10px;
+    height: 10px;
+    left: 2px;
+    background-color: black;
+    top: 16px;
+    border-radius: 50%;
+    z-index: 1;
+}
